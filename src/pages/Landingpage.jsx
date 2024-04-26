@@ -5,7 +5,7 @@ import Login from "../components/Login";
 const Landingpage = () => {
   return (
     <div>
-      <Router basename="/">
+      <Router>
         <Routes>
           <Route path="/Main" element={<Main />} />
           <Route path="/Login" element={<Login />} />
