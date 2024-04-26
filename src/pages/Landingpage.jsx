@@ -7,7 +7,7 @@ const Landingpage = () => {
     <div>
       <Router basename="/">
         <Routes>
-          <Route path="/Netflix-Clone" element={<Main />} />
+          <Route path="/Main" element={<Main />} />
           <Route path="/Login" element={<Login />} />
         </Routes>
       </Router>
