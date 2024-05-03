@@ -4,14 +4,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "../components/Login";
 const Landingpage = () => {
   return (
-    <div>
-      <Router>
+    <Router basename="/Netflix-Clone">
+      <div>
         <Routes>
-          <Route path="/Netflix-Clone" element={<Main />} />
+          <Route path="/" element={<Main />} />
           <Route path="/Login" element={<Login />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 };
 
