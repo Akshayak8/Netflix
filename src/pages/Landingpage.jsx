@@ -5,9 +5,9 @@ import Login from "../components/Login";
 const Landingpage = () => {
   return (
     <div>
-      <Main />
       <Router>
         <Routes>
+          <Route path="/Netflix-Clone" element={<Main />} />
           <Route path="/Login" element={<Login />} />
         </Routes>
       </Router>
